@@ -26,7 +26,7 @@ public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
                 .secret("secret")
                 .scopes("read")
                 .authorizedGrantTypes("authorization_code")
-                .redirectUris("http://loccalhost:8081");
+                .redirectUris("http://loccalhost:8082");
     }
 
     @Override
